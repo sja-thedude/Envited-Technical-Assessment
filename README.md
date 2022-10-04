@@ -8,8 +8,6 @@ This project is part of the MEnvited-Technical-Assessment. The main objective is
 - JavaScript
 - React
 
-Live: [Live View]()
-
 In the project directory, you can run:
 
 ### `npm start`

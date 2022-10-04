@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background: #FBFAFF;
+    background: #FBFAFF !important;
     margin: 0;
     padding: 0;
 }

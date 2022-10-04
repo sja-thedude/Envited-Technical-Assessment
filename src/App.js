@@ -3,7 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import Event from './pages/Event';
 import Create from './pages/Create';
-import './styles/Home.css';
 
 const App = () => (
   <main className="App">
