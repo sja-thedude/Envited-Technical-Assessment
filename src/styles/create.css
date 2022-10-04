@@ -1,0 +1,59 @@
+body {
+    margin: 40%;
+    background-color: #501FC1;
+    text-align: center;
+    width: 150px;
+}
+
+.eventname {
+    align-items: center;
+    text-align: center;
+    color: #CCB6FF;
+    margin: 10%;
+}
+
+.hostname {
+    align-items: center;
+    text-align: center;
+    color: #CCB6FF;
+    margin: 10%;
+}
+
+.location {
+    align-items: center;
+    text-align: center;
+    color: #CCB6FF;
+    margin: 10%;
+}
+
+.enddate {
+    align-items: center;
+    text-align: center;
+    color: #CCB6FF;
+    margin: 10%;
+}
+
+.startdate {
+    align-items: center;
+    text-align: center;
+    color: #CCB6FF;
+    margin: 10%;
+}
+
+.evepho {
+    width: 150px;
+    margin: 10%;
+}
+
+.nextbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    left: calc(50% - 320px/2 + 436px);
+    top: 622px;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+    margin: 10%;
+}

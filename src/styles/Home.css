@@ -1,0 +1,225 @@
+body {
+    position: relative;
+    background: #F6F2FF;
+}
+
+.text {
+    color: #240D57;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.texth2 {
+    color: #240D57;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.snap {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    width: 187px;
+    height: 50px;
+    margin-left: 25%;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.item-nav {
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.parahome {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.n-link {
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 375px) {
+    .text {
+        left: 154.04px;
+        top: 0px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        text-align: center;
+        color: #240D57;
+    }
+
+    .texth2 {
+            left: 154.04px;
+            top: 0px;
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 64px;
+            text-align: center;
+            color: #240D57;
+    }
+
+    .snap {
+        height: 74px;
+        left: 0px;
+        top: 59px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 74px;
+        text-align: center;
+        background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .parahome {
+        width: 85%;
+        height: 56px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #4F4F4F;
+        margin-left: 5%;
+    }
+
+    img {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .btn {
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+
+.text {
+    position: absolute;
+    margin: 0;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: right;
+    color: #240D57;
+    margin-left: 40%;
+    width: 295px;
+}
+
+.texth2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: right;
+    margin-left: 40%;
+    color: #240D57;
+    width: 250px;
+    padding: 10px;
+}
+
+.parahome {
+    height: 56px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: right;
+    color: #4F4F4F;
+    margin-left: 40%;
+    width: 50%;
+}
+
+.snap {
+    position: absolute;
+    width: 295px;
+
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+
+    text-align: right;
+
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+img {
+    margin: auto;
+    width: 40%;
+}
+
+.btn {
+    margin-left: 70%;
+}
+
+}
